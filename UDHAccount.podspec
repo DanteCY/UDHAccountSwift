@@ -6,12 +6,10 @@ Pod::Spec.new do |s|
   s.license               = { :type => 'Copyright', :text => "Alibaba-INC copyright" }
   s.author                = { "hcy" => "317727215@qq.com" }
   s.source                = { :git => "https://github.com/DanteCY/UDHAccountSwift.git" }
-  s.platform              = :ios, '8.0'
+  s.platform              = :ios, '10.0'
   #s.vendored_frameworks = 'UDHNetworking/UDHNetworking.framework'
   #s.frameworks = 'Foundation','CoreGraphics'
   s.source_files          ='UDHAccount/UDHAccount/**/*'
   s.requires_arc = true
-  #s.dependency 'AFNetworking', '~> 3.0'
- # s.xcconfig = {'OTHER_LDFLAGS' => '-ObjC'}
   
   end
